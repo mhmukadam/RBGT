@@ -24,7 +24,7 @@ find_package(GLEW REQUIRED)
 find_package(glfw3 3.1.2 REQUIRED)
 find_package(OpenCV 4.0.0 REQUIRED)
 if(USE_AZURE_KINECT)
-    find_package(K4A 1.3.0 REQUIRED)
+    find_package(k4a 1.3.0 REQUIRED)
 endif()
 
 find_package(OpenMP)
