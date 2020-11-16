@@ -6,7 +6,7 @@
 namespace rbgt {
 
 bool ImageLoaderCamera::Init(const std::string &name,
-                             const std::filesystem::path &load_path,
+                             const std::experimental::filesystem::path &load_path,
                              const std::string &load_name, int load_index,
                              int max_load_index) {
   initialized_ = false;
